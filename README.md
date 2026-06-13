@@ -215,9 +215,9 @@ minikube addons enable ingress
 ### Проверка доступности через Ingress
 
 ```bash
-minikube tunnel   # в отдельном терминале
-curl http://localhost/      # frontend → nginx
-curl http://localhost/api   # backend → multitool
+minikube tunnel
+curl http://localhost/
+curl http://localhost/api
 ```
 
 ![Ingress проверка](img/3.png)
