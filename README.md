@@ -90,7 +90,7 @@ minikube service svc-nodeport --url
 curl http://127.0.0.1:55171
 ```
 
-![NodePort проверка](img/3.png)
+![NodePort проверка](img/2.png)
 
 ---
 
@@ -220,4 +220,4 @@ curl http://localhost/      # frontend → nginx
 curl http://localhost/api   # backend → multitool
 ```
 
-![Ingress проверка](img/2.png)
+![Ingress проверка](img/3.png)
